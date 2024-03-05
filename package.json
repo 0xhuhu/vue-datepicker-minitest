@@ -1,11 +1,11 @@
 {
   "name": "vue-datepicker-minitest",
-  "version": "8.2.0",
+  "version": "8.2.3",
   "description": "Datepicker component for Vue 3",
   "author": "Vuepic",
   "private": false,
   "license": "MIT",
-  "homepage": "https://vue3datepicker.com",
+  "homepage": "https://github.com/0xhuhu/vue-datepicker-minitest",
   "types": "index.d.ts",
   "type": "module",
   "main": "dist/vue-datepicker.umd.cjs",
@@ -91,10 +91,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Vuepic/vue-datepicker.git"
+    "url": "https://github.com/0xhuhu/vue-datepicker-minitest.git"
   },
   "bugs": {
-    "url": "https://github.com/Vuepic/vue-datepicker/issues"
+    "url": "https://github.com/0xhuhu/vue-datepicker-minitest/issues"
   },
   "keywords": [
     "vue-datepicker",
