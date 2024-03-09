@@ -1,6 +1,6 @@
 {
   "name": "vue-datepicker-minitest",
-  "version": "9.0.1",
+  "version": "9.0.2",
   "description": "Datepicker component for Vue 3",
   "author": "Vuepic",
   "private": false,
@@ -82,7 +82,8 @@
   },
   "dependencies": {
     "date-fns": "^3.3.1",
-    "vue-datetime3-newdemo": "^1.0.2"
+    "vue-datetime3-newdemo": "^1.0.2",
+    "react-day-picker-trial": "^9.0.0"
   },
   "peerDependencies": {
     "vue": ">=3.2.0"
