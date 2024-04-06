@@ -19,4 +19,3 @@
 - SSR support
 - Highly configurable
 - Accessible
-- Included type definitions
