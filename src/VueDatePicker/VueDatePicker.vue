@@ -80,9 +80,6 @@
         nextTick,
     } from 'vue';
 
-    import DatepickerInput from '@/components/DatepickerInput.vue';
-    import DatepickerMenu from '@/components/DatepickerMenu.vue';
-
     import {
         useExternalInternalMapper,
         usePosition,
@@ -92,10 +89,16 @@
         useTransitions,
         useValidation,
     } from '@/composables';
+
+
+    import DatepickerInput from '@/components/DatepickerInput.vue';
+    import DatepickerMenu from '@/components/DatepickerMenu.vue';
+
+
     import { onClickOutside } from '@/directives/clickOutside';
     import { AllProps } from '@/props';
-    import { findNextFocusableElement, getNumVal } from '@/utils/util';
 
+    import { findNextFocusableElement, getNumVal } from '@/utils/util';
     import type {
         DynamicClass,
         MonthYearOpt,
@@ -145,14 +148,15 @@
     const isOpen = ref(false);
     const modelValueRef = toRef(props, 'modelValue');
     const timezoneRef = toRef(props, 'timezone');
-    const dpWrapMenuRef = ref<HTMLElement | null>(null);
-    const dpMenuRef = ref<DatepickerMenuRef | null>(null);
-    const inputRef = ref<DatepickerInputRef | null>(null);
     const isInputFocused = ref(false);
     const pickerWrapperRef = ref<HTMLElement | null>(null);
     const shouldFocusNext = ref(false);
     const shiftKeyActive = ref(false);
     const collapse = ref(false);
+    const dpWrapMenuRef = ref<HTMLElement | null>(null);
+    const dpMenuRef = ref<DatepickerMenuRef | null>(null);
+    const inputRef = ref<DatepickerInputRef | null>(null);
+
 
     const { setMenuFocused, setShiftKey } = useState();
     const { clearArrowNav } = useArrowNavigation();
